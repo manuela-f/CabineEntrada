@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Enzo,Manuela, Maria Luiza, Veronica">
+<meta name="description" content="Site de simulacao do caixa de pagamento para cobrança">
+<meta name="keywords" content="Cabine, entrada">
+
+<link rel="stylesheet" href="CabineEntrada.css"/>
+
+<title>CABINE DE ENTRADA</title>
+
+</head>
+<body>
+    <header class="menuprincipal">
+        <div class="header-1">
+            <div class="logo">
+                <img id="logo" src="logo.png" alt="LOGO">
+            </div>
+        </div>
+            <h1><center>SEJA BEM-VINDO AO ESTACIONAMENTO!</h1></center><hr> 
+    </header>
+
+        <div>
+            <h5>Informe a placa de seu carro:</h5>
+            <label for="InfPlaca">Placa</label>
+            <input type="text" id="Placaid" pleceholder="" required="required" name="Informe a placa de seu carro: " class='form-control'/><br>
+        </div>
+    
+        <div>
+            <p><h1>PRESSIONE AQUI!</h1></p>
+            <script src="Teste.js"></script>
+            <button type="submit" onclick="Cadastra()" id="btn1" class="Botao">CLIQUE AQUI</button>
+        </div>
+
+        <div>
+            <input type="reset" onclick="GerarNovoTicket()" id="limpar" value="GERAR NOVO TICKET">
+        </div>
+
+        <header id="caixa">
+            <center><img id="carro" src="carro.png" alt="CARRO"></center>
+                <section id="ticket">
+                    <nobr><center><h4>TICKET STOP CAR</h4></center></nobr>
+                    <nobr><h6>----------------------------------------------------------------------</h6></nobr>
+                    <nobr><h4>Placa do carro: </h4><p id="placadig"></p></nobr>
+                    <nobr><h4>Horário e Data de entrada: </h4><p id="date"></nobr></p> <p id="horario" ></p>
+                    <nobr><h4>Código do ticket: </h4><p id="codigoticket" ></p></nobr>
+                    <nobr><h6>----------------------------------------------------------------------</h6></nobr>
+                </section>
+
+            <header >
+                <center><h5><p id=mensagem></p></h5></center>
+                <h4><center><p id="cancela" ></p></center></h4>
+            </header>
+
+        </header>
+
+        <section id="funcionamento">
+            <ul>
+                <center><p><h1>COMO FUNCIONA?</h1></p></center>
+                <p><li><h5>INFORME A PLACA DE SEU CARRO; </h5></li></p>
+                <p><li><h5>PRESSIONE O BOTÃO AO LADO ESQUERDO DA TELA; </h5></li></p>
+                <p><li><h5>ESTEJA CIENTE DO CÓDIGO EMITIDO EM SEU TICKET ELETRÔNICO; </h5></li></p>
+                <p><li><h5>A CONTAGEM DE TEMPO SERÁ INICIADA A PARTIR DA ENTRADA AO ESTACIONAMENTO, ATÉ QUE O PAGAMENTO SEJA EFETUADO. </h5></li></p><br>
+
+                <center><p><h1>ATENÇÃO!</h1></p></center>
+                <p><h7>O estacionamento possui uma tolerância de até 15 minutos. Nesta circunstância não será nessesário o pagamento.</h7></p>
+            <ul>
+        </section>
+
+<script src="Teste.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+    font: verdana;
+    background-color: rgb(225, 230, 235);
+}
+
+.header-1 {
+    height: 50px;
+    background-color: #080101
+}
+
+#logo {
+    width: 100px;
+    height: 50px;
+    padding: 60px;
+    margin-right: 20px;
+    margin-left: 150px;
+}
+
+.h1 {
+    width: 200px;
+    height: 500px;
+    margin-top: -4px;
+}
+
+.Botao {
+    background-color: rgb(179, 186, 190);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+#caixa {
+    box-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 500px;
+    padding: 40px;
+    right: 720px;
+    box-sizing: border-box;
+    text-align: justify;
+    position: absolute;
+    top: 190px;
+}
+
+#cancela {
+    text-align: center;
+    padding: 6px;
+}
+
+#ticket {
+    text-align: center;
+    margin-bottom: auto;
+}
+
+#carro {
+    width: 40px;
+    height: 43px;
+    right: 900px;
+    padding-right: 200px;
+    padding-left: 90px;
+}
+
+#funcionamento {
+    width: 30%;
+    height: 600px;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: right;
+    text-align: justify;
+    display: block;
+    position: absolute;
+    right: 2px;
+    top: 140px;
+
+    border: black;
+    border-left-color: black;
+    border-right-width: 40px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    z-index: 1;
+}
